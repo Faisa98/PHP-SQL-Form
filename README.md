@@ -29,11 +29,12 @@ CREATE TABLE users (
 
 ## 🚀 How to Run Locally
 
-1. Make sure you have a local development environment like **XAMPP**, **WAMP**, or **MAMP** installed.
-2. Create a new MySQL database (e.g., `my_database`) and add the required table structure (see SQL section above).
-3. Place the `index.php` file inside your server's root directory:
+1. Make sure you have a local development environment like **XAMPP** installed.
+2. Press `Import` from phpMyAdmin page.
+3. In file to import choose `name.sql` from this repo, then click import.
+4. Place the `index.php` file inside your server's root directory:
    - For XAMPP: `htdocs`
    - For WAMP: `www`
-4. Open `index.php` in a code editor and update the database connection credentials to match your local MySQL setup.
-5. Start your Apache and MySQL servers using your control panel.
-6. Open your browser and visit: http://localhost/index.php
+5. Open `index.php` in a code editor and update the database connection credentials to match your local MySQL setup.
+6. Start your Apache and MySQL servers using your control panel.
+7. Open your browser and visit: http://localhost/index.php
